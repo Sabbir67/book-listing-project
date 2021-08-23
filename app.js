@@ -31,11 +31,11 @@ btn.addEventListener('click', function(e){
         newRow.appendChild(newYear);
         year.value = '';
 
-
+        // Append Tr 
         booklist.appendChild(newRow);
 
-        //console.log(newTitle);
+      
     }
-    //console.log('Hello World');
+    
 });
 
